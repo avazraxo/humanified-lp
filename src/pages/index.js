@@ -68,7 +68,7 @@ const IndexPage = () => (
         <div className="col-sm-6">
           <h6>Tell us about you </h6>
 
-          <form name="contact" method="POST" data-netlify="true" data-netlify-honeypot="bot-field">
+          <form name="contact" netlify>
             <div>
               <label for="name"> Name: </label> 
               <input type="text" id="name" name="name" />   
